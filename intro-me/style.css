@@ -44,21 +44,21 @@ main {
 }
 
 #photo {
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     overflow: hidden;
 
 }
 
 #photo img {
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 }
 
 #photo img:hover {
-    width: 300px;
-    height: 400px;
-    transform: scale(2.1);
+    width: 600px;
+    height: 600px;
+    transform: scale(1.8);
     transition: 0.8s ease-in;
 }
 
