@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gothic A1', 'Montserrat', 'Noto Sans KR', 'Noto Serif KR', sans-serif;
+}
+
+header {
+    background-color: grey;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover {
+    background-color: darkgrey;
+    letter-spacing: 4px;
+    transition: all 0.5s ease-in;
+}
+
+main {
+    padding: 40px;
+}
+
+#name {
+    font-size: 50px;
+    font-style: italic;
+    margin: 0 0 20px 0;
+}
+
+#photo {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+#photo img {
+    width: 300px;
+    height: 400px;
+}
+
+#photo img:hover {
+    width: 300px;
+    height: 400px;
+    transform: scale(2.1);
+    transition: 0.8s ease-in;
+}
+
+#cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cv section h3 {
+    margin: 10px 0 5px 0;
+    font-size: 35px;
+}
+#cv section div {
+    text-indent: 1em;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
